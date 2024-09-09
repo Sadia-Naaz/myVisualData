@@ -1,0 +1,32 @@
+{
+  "name": "mycubejs-project",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "cubejs-server",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "template": "docker",
+  "templateVersion": "0.35.80",
+  "devDependencies": {
+    "@cubejs-backend/postgres-driver": "^0.35.80",
+    "@cubejs-backend/server": "^0.35.80"
+  },
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "@cubejs-client/core": "^0.35.23",
+    "@cubejs-client/react": "^0.35.48",
+    "babel-loader": "^9.1.3",
+    "babel-plugin-import": "^1.13.8",
+    "html-webpack-plugin": "^5.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
